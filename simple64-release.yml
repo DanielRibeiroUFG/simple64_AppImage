@@ -39,6 +39,56 @@ AppDir:
         key_url: 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xf63f0f2b90935439'
 
     include:
+      - bash
+      - dash
+      - mesa-utils
+      - mesa-utils-bin
+      - unionfs-fuse
+      - vulkan-tools
+      #- libcups2
+      # - libfuse2
+      # - libfuse3-3
+      - libmspack0
+      #- gstreamer1.0-plugins-good
+      #- gstreamer1.0-plugins-bad
+      #- gstreamer1.0-plugins-ugly
+      # - libnvidia-compute-520
+      # - libnvidia-decode-520
+      # - libnvidia-encode-520
+      # - libnvidia-extra-520
+      # - libnvidia-fbc1-520
+      # - libnvidia-gl-520
+      - libdrm2
+      - libdrm-intel1
+      - libdrm-nouveau2
+      - libdrm-amdgpu1
+      - libdrm-radeon1
+      - libegl-mesa0
+      - libegl1
+      - libgbm1
+      - libgl1
+      - libgl1-mesa-dri
+      - libglapi-mesa
+      - libgles2
+      - libglvnd0
+      - libglx0
+      - libglx-mesa0
+      - mesa-vdpau-drivers
+      - mesa-va-drivers
+      - mesa-vulkan-drivers
+      - libopenal1
+      - libx11-6
+      - libx11-xcb1
+      - libxcb-dri2-0
+      - libxcb-dri3-0
+      - libxcb-glx0
+      - libxcb-present0
+      - libxcb-render0
+      - libxcb-shape0
+      - libxcb-shm0
+      - libxcb-xfixes0
+      - libxcb1
+      - libxcomposite1
       - libpng-dev
       - libsdl2-dev
       - libsdl2-net-dev
@@ -101,56 +151,6 @@ AppDir:
       - qt6-qpa-plugins
       - qt6-translations-l10n
       - qt6-wayland
-      - bash
-      - dash
-      - mesa-utils
-      - mesa-utils-bin
-      - unionfs-fuse
-      - vulkan-tools
-      #- libcups2
-      # - libfuse2
-      # - libfuse3-3
-      - libmspack0
-      #- gstreamer1.0-plugins-good
-      #- gstreamer1.0-plugins-bad
-      #- gstreamer1.0-plugins-ugly
-      # - libnvidia-compute-520
-      # - libnvidia-decode-520
-      # - libnvidia-encode-520
-      # - libnvidia-extra-520
-      # - libnvidia-fbc1-520
-      # - libnvidia-gl-520
-      - libdrm2
-      - libdrm-intel1
-      - libdrm-nouveau2
-      - libdrm-amdgpu1
-      - libdrm-radeon1
-      - libegl-mesa0
-      - libegl1
-      - libgbm1
-      - libgl1
-      - libgl1-mesa-dri
-      - libglapi-mesa
-      - libgles2
-      - libglvnd0
-      - libglx0
-      - libglx-mesa0
-      - mesa-vdpau-drivers
-      - mesa-va-drivers
-      - mesa-vulkan-drivers
-      - libopenal1
-      - libx11-6
-      - libx11-xcb1
-      - libxcb-dri2-0
-      - libxcb-dri3-0
-      - libxcb-glx0
-      - libxcb-present0
-      - libxcb-render0
-      - libxcb-shape0
-      - libxcb-shm0
-      - libxcb-xfixes0
-      - libxcb1
-      - libxcomposite1
 
   files:
     exclude:
